@@ -1,0 +1,14 @@
+Compile => mvn compile (Todos os cod java são compilados e inseridos na pasta target,
+nessa pasta tem as classes geradas e o arq. class)
+Test => mvn test (Encontrar todas as classes de teste dentro do projeto, executando esse teste,
+resultando BUILD FAILURE OU BUILD SUCCESS caso tenha sucesso no processo.)
+Empacotar => criar o JAR da app => mvn packge (Criação do arquivo jar da aplicação)
+Limpar pasta  target => mvn clean.
+Install => mvn install (publica localmente o componente tornando uma dependencia passível de uso), para utilizar esse
+componente em outro projeto, basta copia-lo no POM do projeto desejado.
+
+
+                          <===================================================>
+
+Maven archetype list => opções de arquetipos para um determinado caso de projeto.
+https://maven.apache.org/archetypes/
